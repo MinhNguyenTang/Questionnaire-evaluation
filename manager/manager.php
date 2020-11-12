@@ -15,7 +15,7 @@ class manager
   }
 
   /**
-  *
+  * Getting messages
   */
   public function get_message()
   {
