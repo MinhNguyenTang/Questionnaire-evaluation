@@ -6,7 +6,8 @@
 
 <body>
 
-  <form action="" method="">
+<section class="contact-form">
+  <form action="" method="post">
     <div class="form-group row">
       <div class="">
         <input type="text" class="form-control" name="nom" placeholder="Nom" required>
@@ -21,7 +22,13 @@
 
   <div class="form-group row">
     <div class="">
-      <input type="text" class="form-control" name="mail" placeholder="Adresse email" required>
+      <input type="text" class="form-control" name="mail" placeholder="Email" required>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="">
+      <input type="textarea" class="form-control" name="msg" placeholder="Message" required>
     </div>
   </div>
 
@@ -31,5 +38,7 @@
     </div>
   </div>
   </form>
+</section>
+
 </body>
 </html>
